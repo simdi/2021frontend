@@ -81,5 +81,50 @@ section {
       font-weight: bold;
       display: inline-block;
     }
+
+    .watch-video-cta {
+      display: block;
+      margin-top: 1em;
+
+      img {
+        margin-right: .5em;
+        height: 20px;
+      }
+    }
+  }
+
+  .hero-img {
+    width: 70%;
+    height: 300px;
+    margin-top: 3em;
+  }
+}
+
+.features-section {
+  background: #20272E;
+  color: white;
+}
+
+ul.features-list {
+  margin: 0;
+  padding-left: .1em;
+
+  // come back to this.
+
+  li { 
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      background-image: url('../images/bullet.svg');
+      background-size: contain;
+      margin-right: .5em;
+
+    }
   }
 }
